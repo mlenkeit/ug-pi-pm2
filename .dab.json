@@ -1,0 +1,9 @@
+{
+  "postCheckoutActions": [{
+    "type": "cmd",
+    "cmd": "npm install --production"
+  }, {
+    "type": "cmd",
+    "cmd": "pm2 reload ug-pi-pm2.config.js"
+  }]
+}
