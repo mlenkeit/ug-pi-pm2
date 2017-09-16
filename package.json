@@ -1,0 +1,23 @@
+{
+  "name": "up-pi-pm2",
+  "version": "0.1.0",
+  "description": "Personal Repo - PM2 Configuration for UG Pi",
+  "private": true,
+  "scripts": {
+    "lint": "eslint ug-pi-pm2.config.js",
+    "test": "echo \"Warning: no test specified yet\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mlenkeit/up-pi-pm2.git"
+  },
+  "author": "Maximilian Lenkeit",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mlenkeit/up-pi-pm2/issues"
+  },
+  "homepage": "https://github.com/mlenkeit/up-pi-pm2#readme",
+  "devDependencies": {
+    "eslint": "4.7.0"
+  }
+}
