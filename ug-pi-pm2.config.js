@@ -12,7 +12,7 @@ module.exports = {
       GITHUB_TOKEN: secretEnv.GITHUB_TOKEN,
       GITHUB_USER: 'mlenkeit',
       PORT: '5000',
-      PROJECTS_JSON: path.resolve(__dirname, './projects.js')
+      PROJECTS: path.resolve(__dirname, './projects.js')
     }
   }]
 };
