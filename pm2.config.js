@@ -17,8 +17,11 @@ module.exports = {
       PROJECTS: abspath('./pi-dab-projects.config.js')
     }
   }, {
-    name: 'pi-localtunnel-opener',
+    name: 'pi-lto',
     script: './../pi-localtunnel-opener/index.js',
-    args: `-c "${abspath('./pi-localtunnel-opener-tunnels.config.js')}"`
+    args: `-c "${abspath('./pi-localtunnel-opener-tunnels.config.js')}"`,
+    env: {
+      PORT: '50505'
+    }
   }]
 };
