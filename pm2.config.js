@@ -12,7 +12,7 @@ module.exports = {
       GITHUB_TOKEN: secretEnv.GITHUB_TOKEN,
       GITHUB_USER: 'mlenkeit',
       PORT: '5000',
-      PROJECTS: path.resolve(__dirname, './projects.js')
+      PROJECTS: path.resolve(__dirname, './pi-dab-projects.config.js')
     }
   }]
 };
