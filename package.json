@@ -4,7 +4,7 @@
   "description": "Personal Repo - PM2 Configuration for UG Pi",
   "private": true,
   "scripts": {
-    "lint": "eslint projects.js ug-pi-pm2.config.js",
+    "lint": "eslint *.js",
     "test": "echo \"Warning: no test specified yet\""
   },
   "repository": {
