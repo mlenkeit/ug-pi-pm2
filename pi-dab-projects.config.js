@@ -6,6 +6,11 @@ module.exports = [{
   'githubWebhook': 16109011,
   'postCheckoutScript': 'npm run dab:post-checkout && pm2 restart pi-dab'
 }, {
+  'name': 'mlenkeit/pi-localtunnel-opener',
+  'dir': '/home/pi/ug/pi-localtunnel-opener',
+  'githubWebhook': 16227308,
+  'postCheckoutScript': 'npm run dab:post-checkout && pm2 restart pi-localtunnel-opener'
+}, {
   'name': 'mlenkeit/ug-pi-pm2',
   'dir': '/home/pi/ug/ug-pi-pm2',
   'githubWebhook': 16194414,
