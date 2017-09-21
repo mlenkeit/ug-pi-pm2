@@ -14,5 +14,9 @@ module.exports = [{
   'name': 'mlenkeit/ug-pi-pm2',
   'dir': '/home/pi/ug/ug-pi-pm2',
   'githubWebhook': 16194414,
-  'postCheckoutScript': 'npm install --production && pm2 reload pm2.config.js'
+  'postCheckoutScript': [
+    'npm install --production',
+    'pm2 restart pm2.config.js',
+    'pm2 save'
+  ].join(' && ')
 }];
