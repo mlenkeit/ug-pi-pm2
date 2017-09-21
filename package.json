@@ -18,6 +18,6 @@
   },
   "homepage": "https://github.com/mlenkeit/up-pi-pm2#readme",
   "devDependencies": {
-    "eslint": "4.7.0"
+    "eslint": "4.7.2"
   }
 }
