@@ -19,4 +19,9 @@ module.exports = [{
     'pm2 restart pm2.config.js',
     'pm2 save'
   ].join(' && ')
+}, {
+  name: 'mlenkeit/ug-pi-wetty',
+  dir: '/home/pi/ug/ug-pi-wetty',
+  githubWebhook: 16407172,
+  postCheckoutScript: 'npm install --production && pm2 restart wetty'
 }];

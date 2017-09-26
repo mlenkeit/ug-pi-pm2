@@ -23,5 +23,13 @@ module.exports = {
     env: {
       PORT: '50505'
     }
+  }, {
+    name: 'wetty',
+    script: 'npm',
+    args: 'start',
+    cwd: './../ug-pi-wetty',
+    env: {
+      PORT: '5001'
+    }
   }]
 };
