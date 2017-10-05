@@ -33,6 +33,13 @@ describe('on-lto-update-travel-destination', function() {
           expect(scope.isDone()).to.be.true;
         });
     });
+  });
+  
+  context('for ports not exposed', function() {
     
+    it('does not send a request', function() {
+      const url = 'https://abcdefg.localtunnel.me';
+      return onLto('1234', url);
+    });
   });
 });
