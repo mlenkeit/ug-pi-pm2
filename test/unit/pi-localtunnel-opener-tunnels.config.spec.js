@@ -18,16 +18,14 @@ describe('pi-localtunnel-opener-tunnels.config', function() {
       expect(config)
         .to.have.property('port')
         .that.is.a('number');
-      if (config.cbPath) {
-        expect(config)
-          .to.have.property('cbPath')
-          .that.is.a('string');
-      }
+      expect(config)
+        .to.have.property('cbPath')
+        .that.is.a('string');
     });
   });
   
   it('is semantically correct', function() {
     expect(this.config)
-      .to.have.lengthOf(2);
+      .to.have.lengthOf(1);
   });
 });

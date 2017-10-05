@@ -19,13 +19,13 @@ module.exports = [{
     'pm2 restart pm2.config.js',
     'pm2 save'
   ].join(' && '),
-  port: 50505,
-  exposePort: true
+  port: 50505
 }, {
   githubSlug: 'mlenkeit/ug-pi-wetty',
   githubWebhook: 16407172,
   dir: '/home/pi/ug/ug-pi-wetty',
   postCheckoutScript: 'npm install --production && pm2 restart wetty',
   port: 5001,
-  exposePort: true
+  exposePort: true,
+  exposeAs: 'wetty'
 }];
