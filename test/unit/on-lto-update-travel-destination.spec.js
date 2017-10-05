@@ -28,7 +28,7 @@ describe('on-lto-update-travel-destination', function() {
         .put('/travel/wetty', travelDestination)
         .reply(204);
         
-      return onLto(5001, url)
+      return onLto('5001', url)
         .then(() => {
           expect(scope.isDone()).to.be.true;
         });
