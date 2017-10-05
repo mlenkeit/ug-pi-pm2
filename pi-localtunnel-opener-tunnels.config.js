@@ -1,7 +1,9 @@
 'use strict';
 
-module.exports = [{
-  port: 5001
-}, {
-  port: 50505
-}];
+module.exports = require('./main.config.js')
+  .filter(config => config.exposePort === true)
+  .map(config => {
+    return {
+      port: config.port
+    };
+  });
