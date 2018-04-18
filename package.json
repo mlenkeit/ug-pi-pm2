@@ -22,7 +22,7 @@
     "chai": "4.1.2",
     "eslint": "4.7.2",
     "eslint-plugin-mocha": "4.11.0",
-    "mocha": "4.0.0",
+    "mocha": "5.1.1",
     "nock": "9.0.22"
   },
   "dependencies": {
